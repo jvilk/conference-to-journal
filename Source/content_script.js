@@ -34,7 +34,7 @@ function handleText(textNode)
 	v = v.replace(/\bConference\b/g, "Journal");
     v = v.replace(/\bConferences\b/g, "Journals");
 	v = v.replace(/\bconference\b/g, "journal");
-    v = v.replace(/\bconferences\b/g, "conferences");
+    v = v.replace(/\bconferences\b/g, "journals");
 
 	textNode.nodeValue = v;
 }
